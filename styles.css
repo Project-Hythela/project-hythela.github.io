@@ -14,11 +14,13 @@ body{
     min-height: 100vh;
 }
 
+
 .card{
+    animation: transitionIn 0.75s;
     display: inline-grid;
     grid-auto-columns: minmax(0, 1fr);
     grid-auto-flow: row;
-
+    border-radius: 4px;
     position: relative;
     width: 80vw;
     min-height: 90vh;
@@ -100,3 +102,15 @@ svg{
     padding-right:10px; /* size of gutter */
 
   }
+
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform:translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform:translateY(0);
+    }
+}

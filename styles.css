@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+    font-family: sans-serif;
 }
 
 body{
@@ -26,12 +27,26 @@ body{
     border-image:linear-gradient(to bottom left, #8e2de2, #4a00e0) 1;
 }
 
+h1{
+    font-size: 1em;
+}
+
+p{
+    color: rgb(189, 189, 189);
+    text-align: center;
+}
+
+footer{
+    color: rgb(102, 102, 102);
+    text-align: center;
+}
 li{
+    margin: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
-    flex-flow: row wrap
+    flex-flow: row wrap;
 }
 
 li a{
@@ -49,12 +64,9 @@ svg{
     flex-grow: 1;
 }
 .divider {
-        display: block;
-        height: 3px;
-        border: 0;
-        border-top: 3px solid #262357;
-        margin: 1em 0;
-        margin: 10px;
-        border-radius: 5px;
+    border: 0;
+    border-top: 4px solid #262357;
+    margin: 40px;
+    border-radius: 4px;
 
   }

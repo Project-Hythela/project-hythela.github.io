@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(#141e30 10%, #243b55 110%);
+    min-height: 100vh;
+}
+
+.card{
+    position: relative;
+    width: 80vw;
+    min-height: 90vh;
+    background:rgb(10, 5, 37);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    border-style: solid;
+
+    border-width: 5px;
+    border-image:linear-gradient(to bottom left, #8e2de2, #4a00e0) 1;
+}
+
+li{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 2em;
+}
+
+li a{
+    padding: 10px;
+    
+}
+
+
+svg{
+    display: block;
+    fill: rgb(255, 255, 255);
+}

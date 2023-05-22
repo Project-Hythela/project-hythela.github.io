@@ -42,7 +42,10 @@ body{
     align-items: center;
     text-align: center;
     font-size: 1.5em;
-    
+    flex:60%;
+}
+.icons{
+    flex: 40%;
 }
 /* # - # - # -# - # - # Card grid # - # - # -# - # - # */
 .section1{
